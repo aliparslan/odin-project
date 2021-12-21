@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: purple;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: lightgray;
+    padding: 8px;
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+a {}
+
+button {
+    color: white;
+    background-color: purple;
+    padding: 5px 10px;
+}
