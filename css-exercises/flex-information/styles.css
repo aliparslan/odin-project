@@ -1,0 +1,31 @@
+* {
+    font-family: monospace;
+}
+
+.picture {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    margin-bottom: 32px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plant {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.outer {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+}
