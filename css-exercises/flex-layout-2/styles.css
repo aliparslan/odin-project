@@ -1,0 +1,134 @@
+/* .header {
+    font-family: Futura, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: purple;
+    color: white;
+    padding: 16px;
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(243, 239, 233);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+body {
+    margin: 0;
+    font-family: "Akzidenz-Grotesk Next", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar {
+    background-color: rgb(129, 169, 221);
+    width: 300px;
+    padding: 16px;
+    font-size: 1.25em;
+    flex-shrink: 0;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 8px;
+    width: 200px;
+    padding: 32px;
+    height: 100px;
+    padding: 32px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+} */
+
+/* Solution starting code */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    background-color: darkmagenta;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    height: 72px;
+    background-color: #eee;
+    color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: royalblue;
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}
