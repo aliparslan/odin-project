@@ -11,7 +11,7 @@ function computerPlay() {
 function round(player, computer) {
     player = player.toLowerCase();
     computer = computer.toLowerCase();
-    if (player == rock) {
+    if (player == computer) {
         return 'It is a tie!'
     } else if (player == 'rock') {
         if (computer == 'paper') {
@@ -34,6 +34,27 @@ function round(player, computer) {
         else if (computer == 'paper') {
             return 'You win! Scissors beats Paper';
         }
+    }
 }
 
-console.log(round('rock', computerPlay()));
+function game() {
+    let p = 0;
+    let c = 0;
+    for (let i = 0; i < 5; i++) {
+        let result = round(prompt('What is your choice?'), computerPlay());
+        console.log(result);
+        if (result.includes('You lose')) {
+            c++;
+        } else if (result.includes('You win')) {
+            p++;
+        }
+    }
+    if (p == c) {
+        console.log('The game is a tie!');
+    } else if (p > c) {
+        console.log('You won the game!');
+    } else { 
+        console.log('You lost the game :(') ;
+    }
+}
+game();
