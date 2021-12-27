@@ -37,3 +37,8 @@ header2.textContent = "I'm in a div"
 p2 = document.createElement('p');
 p2.textContent = "ME TOO!";
 div.appendChild(p2);
+
+btn = document.querySelector('#btn')
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
